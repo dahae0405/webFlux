@@ -1,6 +1,5 @@
-package com.reactor.webflux.config;
+package com.reactor.webflux.h2;
 
-import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 import org.h2.tools.Server;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +7,6 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.context.event.ContextClosedEvent;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
-import org.springframework.data.relational.core.sql.In;
 
 import java.sql.SQLException;
 

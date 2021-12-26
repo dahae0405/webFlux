@@ -29,6 +29,16 @@ dependencies {
     testImplementation 'io.projectreactor:reactor-test'
 }
 
+import org.springframework.util.StringUtils
+
 test {
+    def profile = (StringUtils.isEmpty(System.getProperty("spring.profiles.active"))) ? "h2" : System.getProperty("spring.profiles.active")
+    println("""
+		|==================================
+		|Test profile ${profile}
+		|==================================
+	""".stripMargin())
+
+    systemProperty 'spring.profiles.active', profile
     useJUnitPlatform()
 }
