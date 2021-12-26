@@ -16,3 +16,12 @@
 2. @Value("${ ~~ }") 
 : 환경변수값을 가져옵니다.
 4. 
+
+
+# H2관련 기능 ( h2-console, sql )  적용
+1. h2-console config 설정 
+2. h2-database DB정보설정 및 sql적용 config 설정
+3. resource하위 sql ( user, boards 테이블 및 데이터 적재 ) 를 생성했다.
+4. localhost:9091 접속 후, jdbc:h2:mem:testdb 설정 후 접근하여 테스트한다.
+:H2 DB연결이 초기화될때, resources에 넣어두었던 sql이 실행된것
+
