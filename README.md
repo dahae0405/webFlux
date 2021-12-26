@@ -36,5 +36,10 @@
 3. 
 
 
-##Mysql 
+# Mysql 
 https://doitnow-man.tistory.com/91
+
+
+
+## 
+참고 https://tries1.github.io/spring/2021/01/04/spring_async5.html
