@@ -14,3 +14,7 @@ insert into users (name, age, profile_picture_url, updated_at, created_at)
 values ('user2', 20, null, now(), now());
 insert into users (name, age, profile_picture_url, updated_at, created_at)
 values ('user3', 30, null, now(), now());
+
+
+
+
