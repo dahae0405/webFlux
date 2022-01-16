@@ -2,9 +2,9 @@
 웹플럭스
 
 # 0. 목차
-## 0-1. mvc http 게시판 
-## 0-1-1. webflux http 게시판 
-## 0-2. mvc webSocket 웹채팅
+### 0-1. mvc http 게시판 
+### 0-1-1. webflux http 게시판 
+### 0-2. mvc webSocket 웹채팅
 
 ---
 
@@ -44,7 +44,7 @@
 2. 외부 설정값 호출 > @Value("${ ~~ }") 
 : 환경변수값을 가져옵니다.
 
-### 1-3-1. H2 라이브러리 
+### 1-3-2. H2 라이브러리 
 1. h2-console > 웹에서 DB데이터 조회
 -> h2-console config 설정 
 
@@ -54,7 +54,7 @@
 -> localhost:9091 접속 후, jdbc:h2:mem:testdb 설정 후 접근하여 테스트한다.
 : H2 DB연결이 초기화될때, resources에 넣어두었던 sql이 실행된것
 
-### 1-3-2. JPA 라이브러리 
+### 1-3-3. JPA 라이브러리 
 
 1. 매핑할 테이블 지정
 -> @Table
@@ -64,7 +64,7 @@
 : 주로, update/create Date에 적용
 
 
-### 1-3-3. Mysql
+### 1-3-4. Mysql
 -> 대중성.. 
 https://doitnow-man.tistory.com/91
 
