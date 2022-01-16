@@ -4,7 +4,7 @@
 # 0. 목차
 ### 0-1. mvc http 게시판 
 ### 0-1-1. webflux http 게시판 
-### 0-2. mvc webSocket 웹채팅
+### 0-2. mvc http webSocket서버 웹채팅
 
 ---
 
